@@ -139,8 +139,8 @@ const rawtax = subtotal + shipping;
 const tax = rawtax * taxrate;
 const total = rawtax + tax;
 
-console.log(`Items (${quantity}) : $${subtotal.toFixed(2)}`);
-console.log(`Shipping & handling : $${shipping.toFixed(2)}`);
+console.log(`Items (${quantity}): $${subtotal.toFixed(2)}`);
+console.log(`Shipping & handling: $${shipping.toFixed(2)}`);
 console.log(`Total before tax: $${rawtax.toFixed(2)}`);
-console.log(`Estimated tax (10%) : $${tax.toFixed(2)}`);
-console.log(`Order total : $${total.toFixed(2)}`);
+console.log(`Estimated tax (10%): $${tax.toFixed(2)}`);
+console.log(`Order total: $${total.toFixed(2)}`);
